@@ -1,0 +1,58 @@
+.jumbotron {
+    background-image: url("images/ruiz-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Muli', sans-serif;
+    color: white;
+    
+}
+body > div.jumbotron.jumbotron-fluid > div > h1 {
+    text-shadow: 10px, 10px, 5px, red;
+}
+
+#navbarSupportedContent > ul > li.nav-item.active > a {
+    color: white;
+}
+ul { 
+    list-style: none;
+}
+
+hr {
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+#chart {
+    width: 75%;
+    height: 50%;
+    margin: auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.row {
+    min-height: 600px;
+    padding-top: 50px;
+}
+
+#news {
+    min-height: 300px;
+    max-height: 400px;
+    overflow-y: scroll;
+    padding-top: 30px;
+}
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(43, 160, 43);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
